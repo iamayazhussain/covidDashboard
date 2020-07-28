@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col, Carousel } from "react-bootstrap";
 const Home = () => {
   return (
     <>
