@@ -158,22 +158,22 @@ const Footer = () => {
                   <ul class="mt-0">
                     <li>
                       <a href="https://islengg.ac.in">
-                        <i class="fa fa-facebook-f"></i>
+                        <i className="fa fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
                       <a href="https://islengg.ac.in">
-                        <i class="fa fa-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="https://islengg.ac.in">
-                        <i class="fa fa-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
                       <a href="https://islengg.ac.in">
-                        <i class="fa fa-instagram"></i>
+                        <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
