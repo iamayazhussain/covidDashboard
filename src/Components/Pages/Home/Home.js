@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Carousel, CarouselItem } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
 const Home = () => {
   return (
     <>
@@ -61,7 +61,7 @@ const Home = () => {
           <Col lg={3}>
             <div className="content">
               <img
-                src="http://max-themes.net/demos/kingster/upload/icon-2.png"
+                src="https://i.ibb.co/1QYV8p0/icon-2.png"
                 alt=""
                 width="40"
                 height="40"
@@ -75,7 +75,7 @@ const Home = () => {
           <Col lg={3}>
             <div className="content">
               <img
-                src="http://max-themes.net/demos/kingster/upload/icon-4.png"
+                src="https://i.ibb.co/Sfwm5YT/icon-4.png"
                 alt=""
                 width="40"
                 height="40"
@@ -89,7 +89,7 @@ const Home = () => {
           <Col lg={3}>
             <div className="content">
               <img
-                src="http://max-themes.net/demos/kingster/upload/icon-1.png"
+                src="https://i.ibb.co/x8k5DQy/icon-1.png"
                 alt=""
                 width="40"
                 height="40"
@@ -127,7 +127,7 @@ const Home = () => {
                     <i className="fa fa-file-o"></i>08-24-2014
                   </figure>
                   <header>
-                    <a href="#">
+                    <a href="https://islengg.ac.in">
                       U-M School of Public Health, Detroit partners aim to
                       improve air quality in the city
                     </a>
@@ -138,7 +138,7 @@ const Home = () => {
                     <i className="fa fa-file-o"></i>08-24-2014
                   </figure>
                   <header>
-                    <a href="#">
+                    <a href="https://islengg.ac.in">
                       U-M School of Public Health, Detroit partners aim to
                       improve air quality in the city
                     </a>
@@ -247,11 +247,11 @@ const Home = () => {
                     <div className="courses_content">
                       <div className="courses_author d-flex">
                         <div className="author_name media-body">
-                          <a href="#">ESPIRIT</a>
+                          <a href="https://islengg.ac.in">ESPIRIT</a>
                         </div>
                       </div>
                       <h4 className="title">
-                        <a href="#">
+                        <a href="https://islengg.ac.in">
                           Espirit is one of the finest Cultural event of ISL
                           More
                         </a>
@@ -270,11 +270,11 @@ const Home = () => {
                     <div className="courses_content">
                       <div className="courses_author d-flex">
                         <div className="author_name media-body">
-                          <a href="#">ESPIRIT</a>
+                          <a href="https://islengg.ac.in">ESPIRIT</a>
                         </div>
                       </div>
                       <h4 className="title">
-                        <a href="#">
+                        <a href="https://islengg.ac.in">
                           Espirit is one of the finest Cultural event of ISL
                         </a>
                       </h4>
@@ -292,11 +292,11 @@ const Home = () => {
                     <div className="courses_content">
                       <div className="courses_author d-flex">
                         <div className="author_name media-body">
-                          <a href="#">ESPIRIT</a>
+                          <a href="https://islengg.ac.in">ESPIRIT</a>
                         </div>
                       </div>
                       <h4 className="title">
-                        <a href="#">
+                        <a href="https://islengg.ac.in">
                           Espirit is one of the finest Cultural event of ISL
                         </a>
                       </h4>
@@ -314,11 +314,11 @@ const Home = () => {
                     <div className="courses_content">
                       <div className="courses_author d-flex">
                         <div className="author_name media-body">
-                          <a href="#">ESPIRIT</a>
+                          <a href="https://islengg.ac.in">ESPIRIT</a>
                         </div>
                       </div>
                       <h4 className="title">
-                        <a href="#">
+                        <a href="https://islengg.ac.in">
                           Espirit is one of the finest Cultural event of ISL
                         </a>
                       </h4>
@@ -386,11 +386,11 @@ const Home = () => {
                 <div className="courses_content">
                   <div className="courses_author d-flex">
                     <div className="author_name media-body">
-                      <a href="#">ESPIRIT</a>
+                      <a href="https://islengg.ac.in">ESPIRIT</a>
                     </div>
                   </div>
                   <h4 className="title">
-                    <a href="#">
+                    <a href="https://islengg.ac.in">
                       Espirit is one of the finest Cultural event of ISL
                     </a>
                   </h4>
@@ -409,11 +409,11 @@ const Home = () => {
                 <div className="courses_content">
                   <div className="courses_author d-flex">
                     <div className="author_name media-body">
-                      <a href="#">ENTHUSIAC</a>
+                      <a href="https://islengg.ac.in">ENTHUSIAC</a>
                     </div>
                   </div>
                   <h4 className="title">
-                    <a href="#">
+                    <a href="https://islengg.ac.in">
                       Enthusiac is an Annual Sports Meet of ISL. Scintillating
                       performance creates aura of festivit{" "}
                     </a>
@@ -433,11 +433,11 @@ const Home = () => {
                 <div className="courses_content">
                   <div className="courses_author d-flex">
                     <div className="author_name media-body">
-                      <a href="#">Eloquence</a>
+                      <a href="https://islengg.ac.in">Eloquence</a>
                     </div>
                   </div>
                   <h4 className="title">
-                    <a href="#">
+                    <a href="https://islengg.ac.in">
                       Eloquence The English Festival of ISL. With the power of
                       WordsS & Ideas...there comes a be{" "}
                     </a>
@@ -456,11 +456,11 @@ const Home = () => {
                 <div className="courses_content">
                   <div className="courses_author d-flex">
                     <div className="author_name media-body">
-                      <a href="#">Projects</a>
+                      <a href="https://islengg.ac.in">Projects</a>
                     </div>
                   </div>
                   <h4 className="title">
-                    <a href="#">
+                    <a href="https://islengg.ac.in">
                       Departmental Projects Showcase by the Students in every
                       Semester{" "}
                     </a>
@@ -483,15 +483,14 @@ const Home = () => {
             <Col xl={5} lg={5} md={4} className="">
               <div class="student_work_overlay1">
                 <span>
-                  <img src="https://i.ibb.co/bNjZMsx/ecedeve-1.jpg" id="" />
+                  <img src="https://i.ibb.co/bNjZMsx/ecedeve-1.jpg" alt="one" />
                 </span>
                 <p>
-                  &#8220;
                   <span class="font-weight-bold">
                     Robot that can deliver medicines to patients{" "}
                   </span>
-                  &#8221;. ECE Department Students recieved invitation from
-                  Chief Secretary Telangana
+                  &#;. ECE Department Students recieved invitation from Chief
+                  Secretary Telangana
                 </p>
               </div>
             </Col>
@@ -500,26 +499,32 @@ const Home = () => {
               <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 mt-20">
                   <div class="student_work_overlay student_work_img">
-                    <img src="https://i.ibb.co/LDFwDrn/slider5.png" />
-                    <h4>360 &#176; Campus & curriculum</h4>
+                    <img src="https://i.ibb.co/LDFwDrn/slider5.png" alt="img" />
+                    <h4>360 &https://islengg.ac.in176; Campus & curriculum</h4>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 mt-20">
                   <div class="student_work_overlay student_work_img">
-                    <img src="https://i.ibb.co/3W470k0/events.png" />
+                    <img src="https://i.ibb.co/3W470k0/events.png" alt="img" />
                     <h4>Fun-Filled College Events</h4>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 mt-20">
                   <div class="student_work_overlay student_work_img">
-                    <img src="https://i.ibb.co/44qxW1L/outbound.png" />
+                    <img
+                      src="https://i.ibb.co/44qxW1L/outbound.png"
+                      alt="img"
+                    />
                     <h4>College Sponsored Out-bound Participations</h4>
                   </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 mt-20">
                   <div class="student_work_overlay student_work_img">
-                    <img src="https://i.ibb.co/b6mfmDY/enthusiac.jpg" />
+                    <img
+                      src="https://i.ibb.co/b6mfmDY/enthusiac.jpg"
+                      alt="img"
+                    />
                     <h4>Participation in National Level Sporting Events</h4>
                   </div>
                 </div>
@@ -581,7 +586,7 @@ const Home = () => {
               <div className="single_guest d-sm-flex flex-wrap align-items-center">
                 <img
                   className="guest_arrow"
-                  src="http://raistheme.com/html/edustdy/edustdy/assets/images/left.png"
+                  src="https://i.ibb.co/hZCCYRn/right.png"
                   alt="left"
                 />
                 <div className="team_image">
@@ -590,7 +595,7 @@ const Home = () => {
                 <div className="team_content">
                   <div className="team_content_wrapper">
                     <h4 className="title">
-                      <a href="#">Ansar Shaikh</a>
+                      <a href="https://islengg.ac.in">Ansar Shaikh</a>
                     </h4>
                     <span>Youngest IAS Officer</span>
                   </div>
@@ -600,7 +605,7 @@ const Home = () => {
               <div class="single_guest d-sm-flex flex-wrap align-items-center flex-row-reverse">
                 <img
                   class="guest_arrow"
-                  src="http://raistheme.com/html/edustdy/edustdy/assets/images/right.png"
+                  src="https://i.ibb.co/hZCCYRn/right.png"
                   alt="left"
                 />
                 <div class="team_image">
@@ -609,7 +614,7 @@ const Home = () => {
                 <div class="team_content">
                   <div class="team_content_wrapper">
                     <h4 class="title">
-                      <a href="#">Javed Jaffrey</a>
+                      <a href="https://islengg.ac.in">Javed Jaffrey</a>
                     </h4>
                     <span>Actor, Philanthropist</span>
                   </div>
@@ -620,7 +625,7 @@ const Home = () => {
               <div class="single_guest d-sm-flex flex-wrap align-items-center">
                 <img
                   class="guest_arrow"
-                  src="http://raistheme.com/html/edustdy/edustdy/assets/images/left.png"
+                  src="https://i.ibb.co/hZCCYRn/right.png"
                   alt="left"
                 />
                 <div class="team_image">
@@ -632,7 +637,7 @@ const Home = () => {
                 <div class="team_content">
                   <div class="team_content_wrapper">
                     <h4 class="title">
-                      <a href="#">Simerjeet Singh</a>
+                      <a href="https://islengg.ac.in">Simerjeet Singh</a>
                     </h4>
                     <span>International Motivational Speaker</span>
                   </div>
@@ -641,7 +646,7 @@ const Home = () => {
               <div class="single_guest d-sm-flex flex-wrap align-items-center flex-row-reverse">
                 <img
                   class="guest_arrow"
-                  src="http://raistheme.com/html/edustdy/edustdy/assets/images/right.png"
+                  src="https://i.ibb.co/hZCCYRn/right.png"
                   alt="left"
                 />
                 <div class="team_image">
@@ -650,7 +655,7 @@ const Home = () => {
                 <div class="team_content">
                   <div class="team_content_wrapper">
                     <h4 class="title">
-                      <a href="#">Wali Rehmani</a>
+                      <a href="https://islengg.ac.in">Wali Rehmani</a>
                     </h4>
                     <span>Social Entrepreneur | Social Activist</span>
                   </div>
@@ -669,7 +674,7 @@ const Home = () => {
                 <div className="wrapper">
                   <div classname="envelop">
                     <img
-                      src="http://max-themes.net/demos/kingster/upload/icon-envelope.png"
+                      src="https://max-themes.net/demos/kingster/upload/icon-envelope.png"
                       alt=""
                       width="78"
                       height="60"
