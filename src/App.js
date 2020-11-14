@@ -1,29 +1,41 @@
-import React from "react";
-import "./App.css";
-import Home from "./Components/Pages/Home";
-import Blog from "./Components/Blog";
-import Rnd from "./Components/Rnd";
-import NavBar from "./Components/Common/NavigationBar";
-import Footer from "./Components/Common/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <NavBar />
+import { Cards, CountryPicker, Chart } from './components';
+import { fetchData } from './api/';
+import styles from './App.module.css';
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/" component={Home}></Route>
-          <Route path="/blog" component={Blog}></Route>
-          <Route path="/rnd" component={Rnd}></Route>
-        </Switch>
-        <Footer />
-      </Router>
-    </div>
-  );
+import image from './images/image.png';
+
+class App extends React.Component {
+  state = {
+    data: {},
+    country: '',
+  }
+
+  async componentDidMount() {
+    const data = await fetchData();
+
+    this.setState({ data });
+  }
+
+  handleCountryChange = async (country) => {
+    const data = await fetchData(country);
+
+    this.setState({ data, country: country });
+  }
+
+  render() {
+    const { data, country } = this.state;
+
+    return (
+      <div className={styles.container}>
+        <img className={styles.image} src={image} alt="COVID-19" />
+        <Cards data={data} />
+        <CountryPicker handleCountryChange={this.handleCountryChange} />
+        <Chart data={data} country={country} /> 
+      </div>
+    );
+  }
 }
 
 export default App;
